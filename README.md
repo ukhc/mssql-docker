@@ -32,7 +32,7 @@ docker container rm mssql
 ./local-apply.sh
 ~~~
 
-Note: The default mssql root password is admin
+Note: The default mssql sa password is Adm1nAdm1nAdm1n
 
 ### Delete
 ~~~

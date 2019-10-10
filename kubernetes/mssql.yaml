@@ -36,7 +36,7 @@ metadata:
   name: mssql-sa-secret
 type: Opaque
 data:
-  password: YWRtaW4=
+  password: QWRtMW5BZG0xbkFkbTFu
 
 ---
 

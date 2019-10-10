@@ -48,7 +48,7 @@ metadata:
     app: mssql
 spec:
   ports:
-    - port: 3306
+    - port: 1433
   selector:
     app: mssql
   clusterIP: None

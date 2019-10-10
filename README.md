@@ -68,3 +68,9 @@ kubectl scale --replicas=4 deployment/mssql
 ~~~
 ./local-logs-mssql.sh
 ~~~
+
+### Use a port-forward to connect a SQL management tool to the mssql instance
+~~~
+POD=$(kubectl get pod -l app=mssql -o jsonpath="{.items[0].metadata.name}")
+kubectl port-forward $POD 1433:1433
+~~~

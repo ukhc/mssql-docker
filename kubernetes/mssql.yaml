@@ -73,7 +73,7 @@ spec:
     spec:
       containers:
       - name: mssql
-        image: mcr.microsoft.com/mssql/server:2017-CU17-ubuntu
+        image: mcr.microsoft.com/mssql/server:2017-CU16-ubuntu
         ports:
         - containerPort: 1433
         env:
